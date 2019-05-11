@@ -1,0 +1,48 @@
+/* 左边栏 */
+.lt-category-left{
+  width: 90px;
+  height: 100%;
+  /* background-color: pink; */
+  float: left;
+  position: relative;
+}
+.lt-category-left li a{
+  display: block;
+  width: 90px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  color: #666;
+  background-color: #e3e4e5;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.lt-category-left li a.current{
+  border-right: none;
+  background-color: #fff;
+}
+/* 右边栏 */
+.lt-category-right{
+  height: 100%;
+  /* background-color: green; */
+  overflow: hidden;
+  position: relative;
+}
+
+.lt-category-right li{
+  float: left;
+  width: 33.3%;
+  
+}
+.lt-category-right li a{
+  display: block;
+  text-align: center;
+}
+.lt-category-right li a img{
+  width: 70px;
+  height: 50px;
+  margin: 0 auto;
+
+}
+
